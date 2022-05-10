@@ -1,5 +1,7 @@
 # QuizWebsite
 
+Scrript.js and style.css are in 'assets' folder
+
 ## LANDING PAGE
 ![Screenshot 2022-05-10 at 22-53-01 Codedamn - Quiz Project](https://user-images.githubusercontent.com/88764872/167687939-d78a0cbb-9b04-44e0-9104-278e3abe0973.png)
 
