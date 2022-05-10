@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+        <div id="count">Time:</div>
+
+    </header>
+    <main id="box1">
+        <h2>Coding Quiz Challenge</h2>
+        <p>Try to answer to following code related questions within the time limit.
+            <br>
+            <br>
+            Keep in mind that incorrect answers will penalize your score/time by ten seconds.
+         </p>   
+         <br>
+         <button id="start">Start Quiz</button>
+    </main>
+    <main id="box2">
+        <h2 id="question">Question</h2>
+        <button id="a">La iso porsem</button>
+        <button id="b">La iso porsem</button>
+        <button id="c">La iso porsem</button>
+        <button id="d">La iso porsem</button>
+        <hr>
+        <br>
+        <div id="ans"></div>
+     </main>
+     <main id="box3">
+        <h2>All done!</h2>
+        <p id="s">
+            Your final score is: 
+         </p>   
+         <br>
+         <span>Enter Intials: </span>
+         <form id="info">
+         <input type="text" id="initials">
+         <button id="sub" type="submit">Submit</button>
+        </form>
+    </main>
+    <main id="box4">
+        <h2>Highscores</h2>
+        <ol id="highscores">
+            
+        </ol>   
+        <button id="back">Back</button>
+
+    </main>
+    <script src="assets/script.js">
+        
+    </script>
+</body>
+
+</html>
